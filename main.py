@@ -5,7 +5,7 @@ from transactional_db import CUSTOMERS_TABLE, ORDERS_TABLE, PRODUCTS_TABLE
 
 mcp = FastMCP("ecommerce_tools")
 
-@mcp.tool
+@mcp.tool()
 async def get_customer_info(customer_id: str) -> str:
     """Search for a customer using their unique identifier"""
 
