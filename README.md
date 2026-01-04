@@ -17,3 +17,4 @@
         - "mcp[cli]"
         - pytest-asyncio
 - Run MCP Inspector : mcp dev ./main.py
+- Run tests : pytest -s
